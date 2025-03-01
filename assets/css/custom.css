@@ -1,0 +1,4 @@
+.hero-img { position: relative; }
+.im-hero-pov-copy { position: absolute; top: 3vw; left: 3vw; z-index: 1; width: 44%; }
+.hero h1 { color: #fff; font-size: 3.5vw; font-weight: 800; }
+.hero p { color: #fff; font-size: 1.5vw; }
