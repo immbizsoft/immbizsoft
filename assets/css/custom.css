@@ -1,4 +1,26 @@
+.align-left { text-align: left; }
 .hero-img { position: relative; }
 .im-hero-pov-copy { position: absolute; top: 3vw; left: 3vw; z-index: 1; width: 44%; }
-.hero h1 { color: #fff; font-size: 3.5vw; font-weight: 800; }
-.hero p { color: #fff; font-size: 1.5vw; }
+.hero h1 { color: #fff; font-size: 3.5vw; font-weight: 800; line-height: 1.2; letter-spacing: 1px; }
+.header .logo h1 span { font-family: serif; font-style: italic; }
+.hero p { color: #fff; font-size: 1.5vw; font-weight: 200; }
+.featured-services .service-item { border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%); }
+.navmenu li:first-child a { padding-right: 28px; }
+.navmenu li a { position: relative; }
+.navmenu li .immailogo { position: absolute; top: 42%; right: 0; transform: translateY(-50%); max-width: 24px; }
+.navmenu li .immailogo img { max-width: 100%; }
+
+.platformTechnology p { text-align: left; }
+
+section#designThinking { padding: 40px 0; }
+.designThinking img { transform: scale(1); transition: all ease-in-out 0.4s; }
+.designThinking img:hover { transform: scale(1.15); }
+.im-designThinkCards { padding: 0 0 20px; }
+
+@media (max-width:1199px) {
+    .hero h1 { font-size: 2.75vw; }
+    .hero p { font-size: 1.3vw; }
+    .hero .btn-get-started { font-size: 1.5vw; padding: 2% 5%; }
+    .hero .btn-watch-video { font-size: 1.5vw; margin-left: 5%; }
+    .hero .btn-watch-video i { font-size: 3vw; }
+}
