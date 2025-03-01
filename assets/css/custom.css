@@ -15,7 +15,7 @@
 section#designThinking { padding: 40px 0; }
 .designThinking img { transform: scale(1); transition: all ease-in-out 0.4s; }
 .designThinking img:hover { transform: scale(1.15); }
-.im-designThinkCards { padding: 0 0 20px; }
+.im-designThinkCards { padding: 0 0 20px; } 
 
 @media (max-width:1199px) {
     .hero h1 { font-size: 2.75vw; }
