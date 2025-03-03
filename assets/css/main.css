@@ -408,7 +408,7 @@ h6 {
     display: none;
     list-style: none;
     position: absolute;
-    inset: 60px 20px 20px 20px;
+    /* inset: 60px 20px 20px 20px; */ top: 60px; left: 20px; right: 20px;
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
@@ -861,7 +861,7 @@ section, .section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 62vh;
+  /* min-height: 62vh; */
   position: relative;
   /* padding: 120px 0 60px 0; */
   display: flex;
@@ -938,8 +938,8 @@ section, .section {
 
   .hero p {
     font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
+    /* line-height: 24px; */
+    /* margin-bottom: 30px; */
   }
 
   .hero .btn-get-started,
@@ -1456,7 +1456,7 @@ section, .section {
 
 @media (max-width: 575px) {
   .contact .info-wrap {
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -1505,7 +1505,7 @@ section, .section {
 
 @media (max-width: 575px) {
   .contact .php-email-form {
-    padding: 20px;
+    padding: 0 10px;
   }
 }
 
