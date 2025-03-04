@@ -20,6 +20,7 @@ section#designThinking { padding: 40px 0; }
 .im-designThinkCards { padding: 0 0 20px; } 
 
 .scroll-top { box-shadow: 0 0px 1px 1px rgba(255,255,255,.5); }
+.contact .info-wrap { height: 100%; }
 
 @media (max-width:1199px) {
     .hero h1 { font-size: 2.75vw; }
@@ -35,6 +36,8 @@ section#designThinking { padding: 40px 0; }
     .featured-services .row > div { flex-flow: column; }
     .im-designThinkCards { justify-content: center; }
     .im-designThinkCards > div { padding: calc(var(--bs-gutter-x) * .5); }
+    .im-followus { text-align: center; }
+    .im-followus .social-links { justify-content: center; }
 }
 @media (max-width:767px) {
     .hero p { font-size: 2vw; }
@@ -56,4 +59,5 @@ section#designThinking { padding: 40px 0; }
     .platformTechnology p { margin: 0 15px; }
     .im-designThinkCards { padding: 0 6px 15px; }
     .im-designThinkCards > div { padding: 6px; }
+    .contact .php-email-form { height: auto; }
 }
