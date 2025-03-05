@@ -21,6 +21,15 @@ section#designThinking { padding: 40px 0; }
 
 .scroll-top { box-shadow: 0 0px 1px 1px rgba(255,255,255,.5); }
 .contact .info-wrap { height: 100%; }
+.contact .section-title { margin: 30px auto 0; }
+.contact .section-title h2 { margin-bottom: 0; }
+
+.about .content h3 { letter-spacing: 0.1px; }
+.contact .info-item p a { color: var(--heading-color); }
+.contact .info-item:hover p a { color: var(--accent-color); }
+
+.footer-contact a { font-size: 100% !important; }
+.footer-contact a:hover { color: var(--accent-color); }
 
 @media (max-width:1199px) {
     .hero h1 { font-size: 2.75vw; }
